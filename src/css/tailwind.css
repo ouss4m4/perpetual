@@ -10,3 +10,7 @@ a:hover {
 @tailwind components;
 
 @tailwind utilities;
+
+.prime-color {
+  color: rgb(255 25 25);
+}
