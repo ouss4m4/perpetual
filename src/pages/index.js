@@ -12,7 +12,13 @@ import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
 import proof from '../images/perpetual-income-365-reviews.png';
-import Dashboard from '../svg/Dashboard';
+import dashboard from '../images/dashboard.png';
+import email from '../images/email-swipes.jpg';
+import income from '../images/constant-income.jpg';
+import moneyback from '../images/60-Day-Guarantee.png';
+import support from '../images/support.jpg';
+
+/* https://equi-well.com/ */
 
 export default () => (
   <Layout>
@@ -146,7 +152,7 @@ export default () => (
           </p>
         </div>
       }
-      secondarySlot={<Dashboard />}
+      secondarySlot={<img src={dashboard} alt="easy dashboard" />}
     />
     <SplitSection
       reverseOrder
@@ -161,7 +167,7 @@ export default () => (
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<img src={email} alt="email swipes" />}
     />
     <SplitSection
       primarySlot={
@@ -175,7 +181,7 @@ export default () => (
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<img src={income} alt="constant income" />}
     />
 
     <SplitSection
@@ -208,7 +214,7 @@ export default () => (
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<img src={moneyback} alt="Money Back Guaranteed" />}
     />
     <SplitSection
       reverseOrder
@@ -223,7 +229,7 @@ export default () => (
           </p>
         </div>
       }
-      secondarySlot={<img alt="testimonial" src={proof} />}
+      secondarySlot={<img alt="support group" src={support} />}
     />
 
     <section id="stats" className="py-20 lg:pt-32">
