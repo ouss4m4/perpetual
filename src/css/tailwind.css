@@ -14,3 +14,38 @@ a:hover {
 .prime-color {
   color: rgb(255 25 25);
 }
+
+.card-height {
+  height: auto;
+}
+
+.testimonial {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+@media only screen and (min-width: 980px) {
+  .card-height {
+    height: 720px;
+  }
+  .testimonial {
+    height: 450px;
+  }
+}
+@media only screen and (min-width: 1080px) {
+  .card-height {
+    height: 650px;
+  }
+  section {
+    padding: 1px im !important;
+  }
+}
+
+/* @media only screen and (max-width: 600px) {
+  .card-height {
+    height: auto;
+  }
+}
+ */

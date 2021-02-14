@@ -81,7 +81,7 @@ export default () => (
         <h2 className="text-3xl lg:text-5xl font-semibold prime-color">Main Features</h2>
         <div className="flex flex-col lg:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
-            <Card className="mb-8" style={{ minHeight: '800px' }}>
+            <Card className="mb-8 card-height">
               <svg
                 className="h-12 w-12 mx-auto mb-4"
                 xmlns="http://www.w3.org/2000/svg"
@@ -122,7 +122,7 @@ export default () => (
             </Card>
           </div>
           <div className="flex-1 px-3">
-            <Card className="mb-8" style={{ minHeight: '800px' }}>
+            <Card className="mb-8 card-height">
               <svg
                 className="h-12 w-12 mx-auto mb-4"
                 xmlns="http://www.w3.org/2000/svg"
@@ -156,7 +156,7 @@ export default () => (
           </div>
 
           <div className="flex-1 px-3">
-            <Card className="mb-8" style={{ minHeight: '800px' }}>
+            <Card className="mb-8 card-height">
               <svg
                 className="h-12 w-12 mx-auto mb-4"
                 xmlns="http://www.w3.org/2000/svg"
@@ -248,15 +248,12 @@ export default () => (
     <SplitSection
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight prime-color">
-            60-day Money Back Guarantee{' '}
-          </h3>
+          <h3 className="text-3xl font-semibold leading-tight prime-color">A Supportive Group </h3>
           <p className="mt-8 text-xl  leading-relaxed">
-            What if you realize that it’s not the system for you? What if you find out that it’s not
-            working and you’re just wasting your time? The creator of Perpetual Income 365 is so
-            confident about the product that he’s willing to give a 60-day money-back guarantee. But
-            really, you won’t quit while you’re ahead, right? And with this system, you’ll always be
-            ahead.
+            Seeing users of Perpetual Income 365 earning consistent monthly earnings is sure to
+            inspire you to continue with the program until you make it to the elite circle.
+            Purchasing the system makes you a member of a very supportive Facebook group where you
+            can get sound advice and insider tips on the ins and outs of affiliate marketing.
           </p>
         </div>
       }
@@ -266,12 +263,15 @@ export default () => (
       reverseOrder
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
-          <h3 className="text-3xl font-semibold leading-tight prime-color">A Supportive Group </h3>
+          <h3 className="text-3xl font-semibold leading-tight prime-color">
+            60-day Money Back Guarantee{' '}
+          </h3>
           <p className="mt-8 text-xl  leading-relaxed">
-            Seeing users of Perpetual Income 365 earning consistent monthly earnings is sure to
-            inspire you to continue with the program until you make it to the elite circle.
-            Purchasing the system makes you a member of a very supportive Facebook group where you
-            can get sound advice and insider tips on the ins and outs of affiliate marketing.
+            What if you realize that it’s not the system for you? What if you find out that it’s not
+            working and you’re just wasting your time? The creator of Perpetual Income 365 is so
+            confident about the product that he’s willing to give a 60-day money-back guarantee. But
+            really, you won’t quit while you’re ahead, right? And with this system, you’ll always be
+            ahead.
           </p>
         </div>
       }
@@ -328,7 +328,9 @@ export default () => (
 
     <section id="testimonials" className="py-20 lg:py-40">
       <div className="container mx-auto">
-        <LabelText className="mb-8 text-gray-600 text-center">What customers are saying</LabelText>
+        <LabelText className="mb-8 text-gray-600 text-center">
+          What Experts are saying about affiliate marketing
+        </LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
           {customerData.map(customer => (
             <div key={customer.customerName} className="flex-1 px-3">
@@ -347,7 +349,7 @@ export default () => (
         2022 in the U.S.
       </p>
       <p className="mt-8">
-        <Button size="xl">Get Started Now</Button>
+        <Button size="xl">Start Earning Now</Button>
       </p>
     </section>
   </Layout>
