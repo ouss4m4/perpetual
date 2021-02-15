@@ -349,7 +349,9 @@ export default () => (
         2022 in the U.S.
       </p>
       <p className="mt-8">
-        <Button size="xl">Start Earning Now</Button>
+        <a href="https://o06vt.bemobtrcks.com/click/1?ns=c%3D39851a0d-62a0-4ff7-8dfe-f06323aed2f2..l%3D1ad1d544-01d5-4771-8b21-3576cbc81493..a%3D0..b%3D0">
+          <Button size="xl">Start Earning Now</Button>
+        </a>
       </p>
     </section>
   </Layout>
